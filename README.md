@@ -10,9 +10,9 @@ This module puts you in the role of a system administrator who builds, secures a
 
 | Project | What it covers |
 |---|---|
-| [Born2beRoot](./Born2beRoot) · [subject](https://code.42.tech/modules/7ccc7056-93fc-4174-afac-e881d9783624/projects/558bb401-93ba-4c66-9889-60ed63719047) | A headless Debian server in VirtualBox with encrypted LVM partitions, hardened SSH, UFW firewall, AppArmor, strict password and `sudo` policies, and a monitoring script scheduled with `cron`. The repo holds the VM's `signature.txt` and setup notes. |
-| [Net_Practice](./Net_Practice) · [subject](https://code.42.tech/modules/7ccc7056-93fc-4174-afac-e881d9783624/projects/55f55ca1-02db-422c-9e6b-363be234c578) | 10 levels of broken network diagrams, fixed by choosing correct IP addresses, subnet masks and routing tables. Solutions are exported as `level1.json` … `level10.json`. |
-| [Inception](https://github.com/yazeedbarakat/Inception) · [subject](https://code.42.tech/modules/7ccc7056-93fc-4174-afac-e881d9783624/projects/fb33c01f-ba3a-4ad7-92af-e35686e8cb20) | A small infrastructure of Docker containers orchestrated with Docker Compose inside a VM: NGINX (TLS only) → WordPress + PHP-FPM → MariaDB. Each service runs in its own container built from a custom Dockerfile, connected through a dedicated Docker network, with persistent named volumes and credentials kept out of the images. *(separate repository)* |
+| [Born2beRoot](./Born2beRoot) | A headless Debian server in VirtualBox with encrypted LVM partitions, hardened SSH, UFW firewall, AppArmor, strict password and `sudo` policies, and a monitoring script scheduled with `cron`. The repo holds the VM's `signature.txt` and setup notes. |
+| [Net_Practice](./Net_Practice) | 10 levels of broken network diagrams, fixed by choosing correct IP addresses, subnet masks and routing tables. Solutions are exported as `level1.json` … `level10.json`. |
+| [Inception](https://github.com/yazeedbarakat/Inception) | A small infrastructure of Docker containers orchestrated with Docker Compose inside a VM: NGINX (TLS only) → WordPress + PHP-FPM → MariaDB. Each service runs in its own container built from a custom Dockerfile, connected through a dedicated Docker network, with persistent named volumes and credentials kept out of the images. *(separate repository)* |
 
 ## Key concepts
 
